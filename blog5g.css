@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: whitesmoke;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    width: 100%;
+    height: 77px;
+    background: rgba(244,234,40,1);
+    z-index: 10;
+}
+
+header h1{
+    width: 120px;
+    height: 70px;
+    padding-top: 10px;
+    margin-left: 65px;
+}
+
+header h1 a{
+    display: block;
+    height: 100%;
+    text-indent: -9999px;
+    background: url(assets/AnimoSoftware\ Text\ Logo.svg) no-repeat center center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0rem .5rem;
+}
+
+header nav ul li a {
+    color: black;
+    font-family: 'Share Tech Mono';
+    font-weight: 300;
+    padding: 0rem .8rem;
+    transition: 300ms all;
+}
+
+header nav ul li a:hover {
+    background-color:rgba(0, 0, 0, 0.900);
+    color: whitesmoke;
+    border-radius: 0.3rem;
+    padding: 1.9rem 1.2rem;
+}
+
+.blogresim {
+    width: 100%;
+    height: 500px;
+    background: url(assets/blog1.jpg) no-repeat;
+}
+
+.blogyazi p {
+    transform: translateX(160px);
+    margin-top: 80px;
+    width: 1075px;
+    height: 228px;
+    left: 182px;
+    top: 770px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: rgba(15, 15, 15, 0.884);
+}
+
+.blogyazi p b {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: rgba(15, 15, 15, 0.884);
+}
+
+footer .footer {
+    margin-top: 1000px;
+    width: 100%;
+    height: 510px;
+    left: 0px;
+    top: 3314px;
+
+    background: #000000;
+}
+
+footer .footer .logo {
+    transform: translateY(130px);
+    margin-left: 170px;
+    width: 50%;
+    height: 50%;
+    left: 170px;
+    top: 3413px;
+
+    background: url(assets/BeyazAnimo\ Text\ Logo\ 1.png) no-repeat;
+}
+
+footer .footer .telefon {
+    margin-top: 20px;
+    margin-left: 110px;
+    width: 39px;
+    height: 35px;
+    left: 100px;
+    top: 3602px;
+
+    background: url(assets/Vector.png) no-repeat;
+}
+
+footer .footer .telefon p {
+    transform: translateY(-6px);
+    margin-left: 55px;
+    width: 277px;
+    height: 40px;
+    left: 168px;
+    top: 3600px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+footer .footer .email {
+    transform: translateY(17px);
+    margin-left: 111px;
+    width: 28px;
+    height: 25px;
+    left: 100px;
+    top: 3689px;
+
+    background: url(assets/envelope\ 1.png) no-repeat;
+}
+
+footer .footer .email p {
+    transform: translateY(-4px);
+    margin-left: 53px;
+    width: 414px;
+    height: 34px;
+    left: 168px;
+    top: 3677px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+footer .footer p.hızlımenu {
+    transform: translateY(-145px);
+    margin-left: 650px;
+    width: 104px;
+    height: 25px;
+    left: 733px;
+    top: 3453px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer .footer p.kariyer {
+    transform: translateY(-170px);
+    margin-left: 900px;
+    width: 69px;
+    height: 25px;
+    left: 996px;
+    top: 3453px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer .footer p.sosyalmedya {
+    transform: translateY(-195px);
+    margin-left: 1100px;
+    width: 140px;
+    height: 25px;
+    left: 1224px;
+    top: 3453px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer .footer .altcizgi1 {
+    transform: translateY(-195px);
+    margin-left: 625px;
+    width: 20%;
+    height: 2%;
+    left: 716px;
+    top: 3484px;
+
+    background: url(assets/Line\ 22.png) no-repeat;
+}
+
+footer .footer .altcizgi2 {
+    transform: translateY(-205px);
+    margin-left: 859px;
+    width: 20%;
+    height: 2%;
+    left: 716px;
+    top: 3484px;
+
+    background: url(assets/Line\ 22.png) no-repeat;
+}
+
+footer .footer .altcizgi3 {
+    transform: translateY(-214px);
+    margin-left: 1088px;
+    width: 11%;
+    height: 2%;
+    left: 716px;
+    top: 3484px;
+
+    background: url(assets/Line\ 22.png) no-repeat;
+}
+
+footer nav .div1 {
+    transform: translateY(-260px);
+    margin-left: 665px;
+    width: 0%;
+    height: 0%;
+    left: 752px;
+    top: 3549px;
+    line-height: 0px;
+}
+
+footer nav .div1 a.urunler {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div1 a.urunler:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div2 {
+    transform: translateY(-230px);
+    margin-left: 667px;
+    width: 1%;
+    height: 1%;
+    left: 753px;
+    top: 3587px;
+    line-height: 0px;
+}
+
+footer nav .div2 a.iletisim {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div2 a.iletisim:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div3 {
+    transform: translateY(-200px);
+    margin-left: 652px;
+    width: 1%;
+    height: 1%;
+    left: 732px;
+    top: 3625px;
+    line-height: 0px;
+}
+
+footer nav .div3 a.hakkımızda {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div3 a.hakkımızda:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div4 {
+    transform: translateY(-260px);
+    margin-left: 867px;
+    width: 10%;
+    height: 10%;
+    left: 959px;
+    top: 3511px;
+    line-height: 0px;
+}
+
+footer nav .div4 a.animogelenegi {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div4 a.animogelenegi:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div5 {
+    transform: translateY(-230px);
+    margin-left: 852px;
+    width: 15%;
+    height: 15%;
+    left: 938px;
+    top: 3549px;
+    line-height: 0px;
+}
+
+footer nav .div5 a.animodaekosistem {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div5 a.animodaekosistem:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div6 {
+    transform: translateY(-200px);
+    margin-left: 866px;
+    width: 15%;
+    height: 15%;
+    left: 959px;
+    top: 3587px;
+    line-height: 0px;
+}
+
+footer nav .div6 a.gencyetenekler {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div6 a.gencyetenekler:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div7 {
+    transform: translateY(-260px);
+    margin-left: 1124px;
+    width: 1%;
+    height: 1%;
+    left: 1249px;
+    top: 3511px;
+    line-height: 0px;
+}
+footer nav .div7 a.facebook {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div7 a.facebook:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div8 {
+    transform: translateY(-230px);
+    margin-left: 1131px;
+    width: 1%;
+    height: 1%;
+    left: 1249px;
+    top: 3549px;
+    line-height: 0px;
+}
+
+footer nav .div8 a.youtube {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div8 a.youtube:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer nav .div9 {
+    transform: translateY(-200px);
+    margin-left: 1127px;
+    width: 1%;
+    height: 1%;
+    left: 1256px;
+    top: 3587px;
+    line-height: 0px;
+}
+
+footer nav .div9 a.ınstagram {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 300ms all;
+}
+
+footer nav .div9 a.ınstagram:hover {
+    margin-left: 5px;
+    color: yellow;
+}
+
+footer .footer .enaltcizgi {
+    transform: translateY(-25px);
+    margin-left: 121px;
+    width: 85%;
+    height: 5%;
+    left: 140px;
+    top: 3786px;
+
+    background: url(assets/Line\ 21.png) no-repeat;
+}
+
+footer .footer p.hak {
+    transform: translateY(-10px);
+    margin-left: 539px;
+    width: 30%;
+    height: 0%;
+    left: 0px;
+    top: 3314px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
